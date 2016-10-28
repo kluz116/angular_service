@@ -1,0 +1,9 @@
+<ol>
+  <li *ngFor="let photo of photos">
+    <h1>{{photo.title}}</h1>
+     <img [src]="photo.url" style="height:200px">
+     <img [src]="photo.thumbnailUrl" style="height:200px">
+    
+  </li>
+
+</ol>
